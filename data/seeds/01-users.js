@@ -21,5 +21,12 @@ exports.seed = async function (knex) {
       email: "martin@gmail.com",
       role_id: 2,
     },
+    {
+      username: "strawberry",
+      password:
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0IiwibmFtZSI6InN0cmF3YmVycnkiLCJpYXQiOjE1MTYyMzkwMjJ9.0AvG8pICGonI1w5wXHwnSn8MyCRfC-uHi9L1vJpirc4", // password "1234"
+      email: "strawberry@gmail.com",
+      role_id: 2,
+    },
   ]);
 };
